@@ -116,16 +116,16 @@ public class Lesson4Runner {
                 else {break;}
                 System.out.println("Do you want to continue? (y/n)");
 
-                String toContinue = scanner.next();
+                String toContinue = scanner.nextLine();
 
                 if (toContinue.equals("y")){
-                    continue;
+                    break;
                 }
-                else {break;}
+                else {continue;}
 
             }
             catch (InputMismatchException e) {
-                System.out.println("Incorrect input. Restart the programme and enter nubmer of item menu");
+                System.out.println("Incorrect input. Restart the programme and enter numbr of item menu");
                 break;
             }
 

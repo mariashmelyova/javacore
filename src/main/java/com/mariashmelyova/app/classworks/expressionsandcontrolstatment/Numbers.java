@@ -18,7 +18,7 @@ public class Numbers {
             return a + " is bigger than " + b;
         }
         else if (a == b) {
-            return a + " and " + b + "are equal";
+            return a + " and " + b + " are equal";
         }
         else {
             return b + " is bigger than " + a;

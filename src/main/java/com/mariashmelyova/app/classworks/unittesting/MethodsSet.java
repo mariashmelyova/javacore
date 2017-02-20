@@ -12,19 +12,19 @@ public class MethodsSet {
                 s += "Excellent! ";
                 break;
             case 'B':
-                s += "OK ";
+                s += "OK. ";
             case 'C':
-                s += "Well done ";
+                s += "Well done! ";
                 break;
             case 'D':
-                s += "You passed ";
+                s += "You passed. ";
             case 'F':
-                s += "Better try again";
+                s += "Better try again. ";
                 break;
             default:
-                s += "Invalid grade ";
+                s += "Invalid grade";
         }
-        if (!s.equals("Invalid grade ")) {
+        if (!s.equals("Invalid grade")) {
             s += "Your grade is " + grade;
         }
         return s;

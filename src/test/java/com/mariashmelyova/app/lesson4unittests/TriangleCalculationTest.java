@@ -9,11 +9,28 @@ import org.junit.Test;
  */
 public class TriangleCalculationTest {
     @Test
-    public void isTriangleRightAngledTest(){
+    public void triangleIsRightAngledTest(){
         int a  = 3, b = 4, c = 5;
         Assert.assertTrue(TriangleCalculation.isTriangleRightAngled(a,b,c));
+    }
 
-        a = 0; b = 1; c = 2;
+    @Test
+    public void triangleIsNotRightAngledTest(){
+        int a = 5, b = 1, c = 2;
         Assert.assertFalse(TriangleCalculation.isTriangleRightAngled(a,b,c));
     }
+
+    @Test
+    public void isTriangleRightAngledNegativeInputValueTest(){
+        int a = -5, b = -6, c = -2;
+        Assert.assertFalse(TriangleCalculation.isTriangleRightAngled(a,b,c));
+    }
+
+    @Test
+    public void isTriangleRightAngledNegativeNullValueTest(){
+        int a = 0, b = 0, c = 0;
+        Assert.assertFalse(TriangleCalculation.isTriangleRightAngled(a,b,c));
+    }
+
+
 }
