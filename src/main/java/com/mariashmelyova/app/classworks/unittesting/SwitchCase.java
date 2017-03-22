@@ -3,7 +3,7 @@ package com.mariashmelyova.app.classworks.unittesting;
 /**
  * Created by mshm on 16-Feb-17.
  */
-public class MethodsSet {
+public class SwitchCase {
     public static String howSwitchWorks(char grade) {
 
         String s = "";
