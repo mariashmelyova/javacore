@@ -12,6 +12,7 @@ import java.util.InputMismatchException;
 public class CircleAreaTest {
     @Test
     public void circleAreaTest(){
+        CircleArea circle = new CircleArea();
         double r = 2.0, expRes = 12.566370614359172;
         Assert.assertEquals(expRes, CircleArea.calculate(r), 0.001);
     }

@@ -17,6 +17,7 @@ public class NumbersTest {
 
     @Test
     public void numberIsEvenZeroTest(){
+        Numbers number = new Numbers();
         int a = 0;
         Assert.assertTrue(Numbers.numberIsEven(a));
     }

@@ -10,8 +10,9 @@ import org.junit.Test;
 public class TriangleCalculationTest {
     @Test
     public void triangleIsRightAngledTest(){
+        TriangleCalculation triangle = new TriangleCalculation();
         int a  = 3, b = 4, c = 5;
-        Assert.assertTrue(TriangleCalculation.isTriangleRightAngled(a,b,c));
+        Assert.assertTrue(triangle.isTriangleRightAngled(a,b,c));
     }
 
     @Test

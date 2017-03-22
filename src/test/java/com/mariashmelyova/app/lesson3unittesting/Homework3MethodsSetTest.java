@@ -14,6 +14,7 @@ public class Homework3MethodsSetTest {
 
     @Test
     public void howSwitchWorks1CaseTest(){
+        MethodsSet set_grade = new MethodsSet();
         char grade = 'A';
         String expRes = "Excellent! Your grade is A";
         Assert.assertEquals(expRes, MethodsSet.howSwitchWorks(grade));

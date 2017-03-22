@@ -1,4 +1,4 @@
-package com.mariashmelyova.app.runners.homeworks;
+package com.mariashmelyova.runners.homeworks;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

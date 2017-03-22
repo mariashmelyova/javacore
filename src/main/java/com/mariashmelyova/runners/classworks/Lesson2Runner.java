@@ -1,5 +1,8 @@
-package com.mariashmelyova.app.classworks.classmethodsvaribles;
+package com.mariashmelyova.runners.classworks;
 
+
+import com.mariashmelyova.app.classworks.classmethodsvaribles.NarrowingCasting;
+import com.mariashmelyova.app.classworks.classmethodsvaribles.WideningCasting;
 
 import java.text.MessageFormat;
 
@@ -8,7 +11,7 @@ import java.text.MessageFormat;
  */
 
 
-public class Runner {
+public class Lesson2Runner {
 
     public static void main(String[] args) {
         WideningCasting casting = new WideningCasting();
@@ -17,7 +20,7 @@ public class Runner {
         System.out.println(((Object) i).getClass().getName());
 
         NarrowingCasting nCasting = new NarrowingCasting();
-        nCasting.narrowing();
+        nCasting.narrowing(2445.4554f);
         char grade = 'A';
 
         switch (grade) {

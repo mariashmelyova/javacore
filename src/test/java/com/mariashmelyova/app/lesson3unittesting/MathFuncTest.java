@@ -13,8 +13,11 @@ public class MathFuncTest {
 
     @Test
     public void multiplyTest(){
+        MathFunc func = new MathFunc();
         int a = 1, b = 2, expRes = 2;
         Assert.assertEquals(expRes, MathFunc.multiply(a,b));
+
+
     }
 
 //    @Test(expected = InputMismatchException.class)

@@ -1,4 +1,4 @@
-package com.mariashmelyova.app.runners.classworks;
+package com.mariashmelyova.runners.classworks;
 
 
 import com.mariashmelyova.app.classworks.expressionsandcontrolstatment.CircleArea;

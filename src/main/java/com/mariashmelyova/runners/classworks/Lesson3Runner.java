@@ -1,4 +1,4 @@
-package com.mariashmelyova.app.utils.runners;
+package com.mariashmelyova.runners.classworks;
 
 import com.mariashmelyova.app.utils.convertors.PrimitiveConverter;
 
@@ -9,7 +9,7 @@ public class Lesson3Runner {
     public static void main(String args[]) {
         PrimitiveConverter converter = new PrimitiveConverter();
         converter.charToInt('7');
-        converter.floatToChar(120.25f);
-        converter.intToChar(55451215);
+        converter.floatToChar(56.464f);
+        converter.intToChar(46576878);
     }
 }
