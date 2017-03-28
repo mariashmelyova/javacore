@@ -114,18 +114,16 @@ public static void main(String[] args) {
     }
 
 //    g. print multi-dimension array 8x5 (1:999) with align
-    int [][] multiDeminsionAlihnArray = new int[8][5];
+    int [][] multiDimensionAlignArray = new int[8][5];
     System.out.println("Multi-dimension align array: ");
-    for (int i = 0; i < multiDeminsionArray.length; i++ ){
+    for (int i = 0; i < multiDimensionAlignArray.length; i++ ){
         System.out.print("Line " + (i+1) + ":    ");
         String result = "";
-        for (int k = 0; k < multiDeminsionArray[i].length; k++){
-            multiDeminsionArray[i][k] = (int) (Math.random() * (999-1) + 1);
-            result += String.format("%1$3d ", multiDeminsionArray[i][k]);
-//            System.out.print(multiDeminsionArray[i][k] + " ");
+        for (int k = 0; k < multiDimensionAlignArray[i].length; k++){
+            multiDimensionAlignArray[i][k] = (int) (Math.random() * (999-1) + 1);
+            result += String.format("%1$3d ", multiDimensionAlignArray[i][k]);
         }
         System.out.println(result);
-//        System.out.println();
     }
         System.out.println();
 
