@@ -22,8 +22,8 @@ public class BasicTest {
 
 // but we will use earthier solution
 
-    private static final String INPUT_DATA = "input.txt";
-    private static final String EXPECTED_RESULTS = "expected.txt";
+    private static final String INPUT_DATA = "src/test/resources/input.txt";
+    private static final String EXPECTED_RESULTS = "src/test/resources/expected.txt";
     private static int[] inputData = null;
     private static int[] expectedResults = null;
 
